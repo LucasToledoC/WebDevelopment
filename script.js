@@ -7,7 +7,7 @@ var nomeCompleto = nome + " " + sobrenome;
 var nascimento = ano - idadeFinal;
 
 alert("Bem vindo!" + " " + nomeCompleto);
-alert("legal, voce nasceu em" + " " + nascimento);
+alert("legal, voce nasceu em " + nascimento);
 
 var numeroA = parseInt(prompt("me diga um número: "));
 var numeroB = parseInt(prompt("me diga um outro número: "));
