@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------------------------------------------
+ Aula começou. 06/03
+
+Ja tenho a conta no github, ja loguei no pc aqui da fiap.
+
+Git é um sistema de controle de versões, basicamente os repositorios do github.
+
+Versões: 0.1, 0.2, 1.0, 1.5.....
+podendo voltar a qualquer versão e fazer alterações.
+
+Ele explicou sobre os commits, que eu ja vi no curso da Alura.
+
+executei os comandos de git config para "setar" o meu nome e o meu email.
+
+Quaisquer entregas de ativadades para o professor, deveram ser feitas por repositorios do github.
+
+fizemos um commit
+
+Fizemos um outro commit, adicionando a estrutura base do html, feita automaticamente com a extensão do emmet
+
+ Aula acabou 06/03
+--------------------------------------------------------------------------------------------------------------------
