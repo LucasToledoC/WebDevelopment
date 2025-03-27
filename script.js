@@ -1,16 +1,11 @@
-var nome = prompt("me diga seu nome: ");
-var sobrenome = prompt("me diga seu sobrenome: ");
-var ano = prompt("em que ano estamos?");
-var idadeFinal = prompt(`vc vai terminar ${ano} com quantos anos?`);
+console.table(["jordan", "pippen", "rodman"]);
+console.table({ goat: "jordan", sf: "pippen", worm: "rodman" });
 
-var nomeCompleto = nome + " " + sobrenome;
-var nascimento = ano - idadeFinal;
+console.log("nivel 1 ");
+console.group("nivel 2");
+console.log("detalhe do nivel 2");
+console.group("nivel 3");
+console.log("detalhe do nivel 3");
 
-alert("Bem vindo!" + " " + nomeCompleto);
-alert("legal, voce nasceu em " + nascimento);
-
-var numeroA = parseInt(prompt("me diga um número: "));
-var numeroB = parseInt(prompt("me diga um outro número: "));
-
-alert(`a soma de ${numeroA} + ${numeroB} é igual a ${numeroA + numeroB}`);
-alert(`a multiplicação de ${numeroA} por ${numeroB} é igual a ${numeroA * numeroB}`);
+var boolean = true;
+console.log(`a variavel ${boolean} tem o tipo ${typeof (boolean)}`);
