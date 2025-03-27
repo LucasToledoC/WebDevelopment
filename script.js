@@ -1,11 +1,4 @@
-console.table(["jordan", "pippen", "rodman"]);
-console.table({ goat: "jordan", sf: "pippen", worm: "rodman" });
+var goat = prompt("qual é o goat do basquete?");
+var jersey = prompt(`qual numero o ${goat} usa na regata?`);
 
-console.log("nivel 1 ");
-console.group("nivel 2");
-console.log("detalhe do nivel 2");
-console.group("nivel 3");
-console.log("detalhe do nivel 3");
-
-var boolean = true;
-console.log(`a variavel ${boolean} tem o tipo ${typeof (boolean)}`);
+alert(`o seu goat no basquete é o ${goat}? boa escolha, e ele usa o numero ${jersey}? que interessante.`);
