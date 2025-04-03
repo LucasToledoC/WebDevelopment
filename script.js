@@ -153,12 +153,12 @@
 
 
 
-var nome = prompt("inserir nome");
-var eVazio = nome == "";
+// var nome = prompt("inserir nome");
+// var eVazio = nome == "";
 
-if (!eVazio) {
-    alert(`nome: ${nome}`)
-}
-else {
-    alert("nome é vazio")
-}
+// if (!eVazio) {
+//     alert(`nome: ${nome}`)
+// }
+// else {
+//     alert("nome é vazio")
+// }
