@@ -1,16 +1,49 @@
-var nome = prompt("me diga seu nome: ");
-var sobrenome = prompt("me diga seu sobrenome: ");
-var ano = prompt("em que ano estamos?");
-var idadeFinal = prompt(`vc vai terminar ${ano} com quantos anos?`);
+// for (let i = 0; i < 10; i++) {
+//     console.log(i)
+// }
 
-var nomeCompleto = nome + " " + sobrenome;
-var nascimento = ano - idadeFinal;
+// let numero = parseInt(prompt("inserir um Número"));
 
-alert("Bem vindo!" + " " + nomeCompleto);
-alert("legal, voce nasceu em " + nascimento);
+// for (let i = 1; i <= 10; i++) {
+//     let resultado = numero * i;
+//     console.log(numero + " X " + i + " = " + resultado);
+// }
 
-var numeroA = parseInt(prompt("me diga um número: "));
-var numeroB = parseInt(prompt("me diga um outro número: "));
+// for (let i = 1; i <= 5; i++) {
+//     if (i == 3) {
+//         break
+//     }
+//     console.log(i)
+// }
 
-alert(`a soma de ${numeroA} + ${numeroB} é igual a ${numeroA + numeroB}`);
-alert(`a multiplicação de ${numeroA} por ${numeroB} é igual a ${numeroA * numeroB}`);
+// for (let i = 1; i <= 5; i++) {
+//     if (i == 3) {
+//         continue;
+//     }
+//     console.log(i)
+// }
+
+// numero = parseInt(prompt("me diga um numero de um a dez"));
+
+// for (numero; numero <= 10 & numero > 1; numero--) {
+//     console.log(numero - 1);
+// }
+
+
+// let entrada = prompt("insira um dado");
+
+
+// while (entrada != "sair") {
+//     alert(`o usuario inseriu ${entrada}`)
+//     entrada = prompt("insira um outro dado")
+// }
+// numero = parseInt(prompt("me diga um numero"))
+// resultado = 1;
+// contador = 1;
+
+// while (contador <= numero) {
+//     resultado *= contador;
+//     contador++;
+// }
+
+// console.log(`o fatorial de ${numero} é ${resultado}`);
