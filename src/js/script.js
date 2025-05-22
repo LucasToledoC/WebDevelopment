@@ -68,16 +68,16 @@
 
 // console.log(novaLista.join("\n"))
 
-cores = []
-quantidade = 5
-do {
-    cor1 = prompt("diga uma cor")
-    if (!isNaN(cor1)) {
-        cores.push(cor1)
-        console.log(cores)
-        quantidade++
-    }
-    else {
-        cor1 = prompt("diga uma cor")
-    }
-} while (quantidade < 5)
+// cores = []
+// quantidade = 0
+// do {
+//     cor1 = prompt("diga uma cor")
+//     if (isNaN(cor1)) {
+//         cores.push(cor1)
+//         console.log(cores)
+//         quantidade++
+//     }
+//     else {
+//         cor1 = prompt("diga uma cor")
+//     }
+// } while (quantidade <= 5)
